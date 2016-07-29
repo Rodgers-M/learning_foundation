@@ -1,0 +1,22 @@
+body{
+     background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) ,  url(img/header.jpg);
+     background-size:cover;
+    background-position: center;
+    height: 100vh;
+    margin: 20px;
+    
+    
+    }
+    .text_box{
+    	position: absolute;
+     transform :translate(40% , 120%);
+}
+ nav li a{
+	color : white;
+}
+.text_box, .btn a{
+	color: white;
+}
+.btn a{
+	margin: 20px;
+}
