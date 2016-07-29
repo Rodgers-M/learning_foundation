@@ -9,7 +9,7 @@ body{
     }
     .text_box{
     	position: absolute;
-     transform :translate(40% , 120%);
+     transform :translate(40% , 80%);
 }
  nav li a{
 	color : white;
@@ -17,6 +17,16 @@ body{
 .text_box, .btn a{
 	color: white;
 }
-.btn a{
-	margin: 20px;
+.button{
+	border-radius: 20%;
+	background-color:   #79D107;
+}
+.button:hover{
+	
+	background-color:  #e67e22;
+}
+.menu_bar li:hover{
+	color: white;
+	border-radius: 15%;
+	background-color: #79D107;
 }
