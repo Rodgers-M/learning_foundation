@@ -1,10 +1,11 @@
-body{
+header{
      background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) ,  url(img/header.jpg);
-     background-size:cover;
+     background-size: cover;
     background-position: center;
     height: 100vh;
-    margin: 20px;
-    
+    margin: 1% 3% 0% 3%;
+    background-attachment: fixed;
+
     
     }
     .text_box{
@@ -13,6 +14,9 @@ body{
 }
  nav li a{
 	color : white;
+}
+.menu{
+    margin-top: 2%;
 }
 
 .menu_bar li:hover{
@@ -31,4 +35,14 @@ body{
 .btn_hungry:hover{
 	
 	background-color:  #e67e22;
+}
+
+/* Meals section*/
+#meals{
+      margin: 2% 3% 0% 3%;
+       background-color: #d5d9ca;
+       padding-top: 2%;
+}
+#meals p{
+    color: #446600;
 }
