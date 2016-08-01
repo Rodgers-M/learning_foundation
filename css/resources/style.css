@@ -14,19 +14,21 @@ body{
  nav li a{
 	color : white;
 }
+
+.menu_bar li:hover{
+    border-radius: 15%;
+    background-color: #79D107;
+}
+
 .text_box, .btn a{
 	color: white;
 }
-.button{
+.btn_hungry, .btn_hungry:visited{
 	border-radius: 20%;
 	background-color:   #79D107;
+    font-size: 15px;
 }
-.button:hover{
+.btn_hungry:hover{
 	
 	background-color:  #e67e22;
-}
-.menu_bar li:hover{
-	color: white;
-	border-radius: 15%;
-	background-color: #79D107;
 }
