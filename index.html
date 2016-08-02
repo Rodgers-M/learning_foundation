@@ -11,21 +11,34 @@
   </head>
   <body>
     <header>
-      <nav>
+      <nav >
         <div class="row">
-          <div class="medium-6 columns">
-            <canvas id="logo" height="100" width="300"></canvas>
-          </div>
-          <div class="medium-6 columns">
+          <div class="medium-5 columns medium-offset-4 ">
             <ul class="no-bullet menu align-right menu_bar">
               <li><a href="#">Sign up </a></li>
-                <li><a href="#">Contact us</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Meals </a></li>
-                <li><a href="#">Home</a></li>
+              <li><a href="#">Contact us</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Meals </a></li>
+              <li><a href="#">Home</a></li> 
             </ul>
         </div>
+        <div class="medium-3 columns menu">
+          <ul  class="no-bullet">
+            <li class="has-form">
+              <form action="find.js" name="search" enctype="multipart/form-data">
+                <div class="row collaspe">
+                  <div class="small-9 collumns">
+                    <input type="text" name="serch" placeholder="Find Favorite Food...">
+                  </div>
+                  <div class="small-3 collumns">
+                    <input type="submit" value="Search" name="search">
+                  </div>
+                </div>
+              </form>
+            </li>
+          </ul>
         </div>
+       </div>
       </nav>
       <div class="text_box row">
         <div class="row ">
@@ -36,7 +49,6 @@
             <a class="btn_hungry button" href="#">I'm hungry</a>
           </div>
         </div>           
-      </div>
     </header>
     <section id="meals">
       <div class="row">
