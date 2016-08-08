@@ -10,7 +10,7 @@ header{
     }
     .text_box{
     	position: absolute;
-     transform :translate(40% , 80%);
+     transform :translate(40% , 90%);
 }
  nav li a{
 	color : white;
