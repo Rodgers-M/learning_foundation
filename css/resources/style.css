@@ -8,20 +8,12 @@ header{
 
     
     }
-    .text_box{
+ .text_box{
     	position: absolute;
      transform :translate(40% , 90%);
 }
  nav li a{
 	color : white;
-}
-.menu{
-    margin-top: 2%;
-}
-
-.menu_bar li:hover{
-    border-radius: 15%;
-    background-color: #79D107;
 }
 
 .text_box, .btn a{
@@ -45,4 +37,10 @@ header{
 }
 #meals p{
     color: #446600;
+}
+.top-bar, .top-bar ul {
+   background-color: rgba(255, 255, 255, .0);
+}
+.top-bar, .top-bar ul li{
+    color : red;
 }
