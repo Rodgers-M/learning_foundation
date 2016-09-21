@@ -1,0 +1,25 @@
+{
+  "name": "learning_foundation",
+  "version": "1.0.0",
+  "description": "a simple app using foundation ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rodgers-M/learning_foundation.git"
+  },
+  "author": "Rodgers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rodgers-M/learning_foundation/issues"
+  },
+  "homepage": "https://github.com/Rodgers-M/learning_foundation#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "ejs": "^2.5.2",
+    "express": "^4.14.0",
+    "morgan": "^1.7.0"
+  }
+}
