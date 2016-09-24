@@ -20,7 +20,7 @@ header{
 	color: white;
 }
 .btn_hungry, .btn_hungry:visited{
-	border-radius: 20%;
+	border-radius: 7%;
 	background-color:   #79D107;
     font-size: 15px;
 }
